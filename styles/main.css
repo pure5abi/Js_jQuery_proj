@@ -1,5 +1,18 @@
+body{
+width: 100%;
+margin: 0;
+  
+}
+
+.wrap{
+	margin-left:auto;
+    margin-right:auto;
+    width:100%;
+	display: inline-block;
+}
+
 .top {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   z-index: 999;
@@ -12,8 +25,20 @@
   display: inline-flex;
  }
 
+.bottom{	
+	width:100%;
+	position:relative;
+	display: inline-flex;
+	height: 100%;
+}
+
+.scd{
+	display: inline-flex;
+}
+
 #proj{
 	margin-left: 150px;
+
 }
 
  .head{
@@ -45,20 +70,21 @@
 
  .Odin{
  	padding-bottom: 10px;
+ 	padding-top: 15px;
  	margin-right: 20px;
- 	
  	font-size: 20px;
 	font-weight: 200;
 	font-variant: small-caps;
 	letter-spacing: 1px;
 	color: black;
+	position: relative;
+	white-space: nowrap;
  }
 
 .menu{
 	height: 100%;
 	width: 200px;
-	position: fixed;
-	top: 8.2%;
+	position: relative;
 	left: 0;
 	float: left;
 	margin:0;
@@ -68,18 +94,25 @@
     -moz-box-shadow: -1px 2px 12px 0px rgba(0,0,0,0.15);
   	box-shadow: -1px 2px 12px 0px rgba(0,0,0,0.15);
   	display: inline-flex;
- }
-	
-
-.wrap{
-	display: inline-block;
-}
-
-.menu{
 	display: inline-block;
 	margin: 0;
 	padding: 20px;
 }
+
+.container{
+	height: 512px;
+	width: 512px;
+	position: relative;
+	left: 2%;
+	top: 5%;
+	border: 1px solid #A3A3A3;
+	-webkit-box-shadow: 28px 36px 73px -13px rgba(0,0,0,1);
+	-moz-box-shadow: 28px 36px 73px -13px rgba(0,0,0,1);
+	box-shadow:28px 36px 73px -13px rgba(0,0,0,1);
+	white-space: nowrap;
+	float:right;
+}
+
 
 .item{
 	height: 50px;
@@ -87,6 +120,7 @@
 	margin: 0;
 	padding: 0;
 	display: inline-flex;
+	white-space: nowrap;
 }
 
 .item:hover{

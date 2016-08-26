@@ -10,3 +10,10 @@ Project link: http://www.theodinproject.com/web-development-101/javascript-and-j
 - Need to deploy the cler grid function
 - Need to fix <div> overlaps
 - Need to deploy opacity and random trails
+
+26.August.2016: Completed.
+
+-Added Fade In Option
+-Added Random Color Option
+-Fixed <div> positioning
+-Project Completed
